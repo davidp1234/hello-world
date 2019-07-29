@@ -1,4 +1,12 @@
 # Jekyll site
+- task: Security static source code analysis@88
+  inputs:
+    CheckmarxService: 'CxScanEngine'
+    projectName: 'Project_1'
+    preset: 'Checkmarx Default'
+    fullTeamName: 'Team 1'
+    incScan: true
+    comment: 'Test Build'
 # Package your Jekyll site using the jekyll/builder Docker container image.
 # Add steps that build, test, save build artifacts, deploy, and more:
 # https://aka.ms/yaml
